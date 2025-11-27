@@ -144,17 +144,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* ANIMATIONS */
-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-}
 
-section.visible {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 768px) {
@@ -190,3 +180,4 @@ section.visible {
         font-size: 20px;
     }
 }
+
