@@ -10,27 +10,27 @@ body {
 /* HERO SECTION */
 .hero {
     text-align: center;
-    padding: 120px 20px 100px;
+    padding: 80px 20px 60px;
     background: linear-gradient(rgba(247,247,242,0.85), rgba(255,255,255,0.85));
 }
 
 .hero h1 {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
     color: #a44a3f;
     margin: 0;
 }
 
 .tagline {
-    font-size: 28px;
+    font-size: 24px;
     color: #9cb380;
     margin-top: -10px;
 }
 
 .launch {
-    font-size: 18px;
+    font-size: 16px;
     color: #7a8c86;
     margin-top: 15px;
     font-weight: 300;
@@ -103,13 +103,13 @@ hr {
 .signup {
     background: #f8f8f4;
     text-align: center;
-    padding: 70px 20px;
+    padding: 50px 20px;
     margin-top: 50px;
 }
 
 .signup h3 {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 28px;
+    font-size: 24px;
     color: #a44a3f;
 }
 
@@ -123,12 +123,13 @@ hr {
     margin: 20px auto;
     border-radius: 10px;
     border: none;
+    max-width: 100%;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    padding: 50px 20px;
+    padding: 40px 20px;
     font-size: 14px;
     color: #7a8c86;
 }
@@ -157,17 +158,35 @@ section.visible {
 
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 768px) {
-    .ecosystem {
-        flex-direction: column;
-        gap: 30px;
-        padding: 0 10px;
+    .hero h1 {
+        font-size: 48px;
     }
-
+    .tagline {
+        font-size: 20px;
+    }
+    .launch {
+        font-size: 14px;
+    }
     .card {
         width: 90%;
         padding: 20px;
     }
+}
 
+@media only screen and (max-width: 480px) {
     .hero h1 {
-        font-size:
+        font-size: 36px;
     }
+    .tagline {
+        font-size: 18px;
+    }
+    .launch {
+        font-size: 12px;
+    }
+    .about p {
+        font-size: 16px;
+    }
+    .signup h3 {
+        font-size: 20px;
+    }
+}
