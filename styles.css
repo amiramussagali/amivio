@@ -43,14 +43,10 @@ body {
     text-align: center;
 }
 
-p {
-    text-align: center;
-    color: #7a8c86;
+.about p {
     font-size: 18px;
     line-height: 1.6;
-    max-width: 700px;
-    margin: 20px auto;
-    font-weight: 300;
+    color: #7a8c86;
 }
 
 /* HR DIVIDER */
@@ -105,17 +101,22 @@ hr {
     text-align: center;
     padding: 50px 20px;
     margin-top: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .signup h3 {
     font-family: "Georgia", "Times New Roman", serif;
-    font-size: 24px;
+    font-size: 28px;
     color: #a44a3f;
+    margin-bottom: 15px;
 }
 
 .signup p {
     color: #7a8c86;
     margin-bottom: 25px;
+    font-size: 18px;
 }
 
 .signup iframe {
@@ -123,7 +124,9 @@ hr {
     margin: 20px auto;
     border-radius: 10px;
     border: none;
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
 }
 
 /* FOOTER */
@@ -144,40 +147,18 @@ footer a:hover {
     text-decoration: underline;
 }
 
-
-
 /* MOBILE RESPONSIVE */
 @media only screen and (max-width: 768px) {
-    .hero h1 {
-        font-size: 48px;
-    }
-    .tagline {
-        font-size: 20px;
-    }
-    .launch {
-        font-size: 14px;
-    }
-    .card {
-        width: 90%;
-        padding: 20px;
-    }
+    .hero h1 { font-size: 48px; }
+    .tagline { font-size: 20px; }
+    .launch { font-size: 14px; }
+    .card { width: 90%; padding: 20px; }
 }
 
 @media only screen and (max-width: 480px) {
-    .hero h1 {
-        font-size: 36px;
-    }
-    .tagline {
-        font-size: 18px;
-    }
-    .launch {
-        font-size: 12px;
-    }
-    .about p {
-        font-size: 16px;
-    }
-    .signup h3 {
-        font-size: 20px;
-    }
+    .hero h1 { font-size: 36px; }
+    .tagline { font-size: 18px; }
+    .launch { font-size: 12px; }
+    .about p { font-size: 16px; }
+    .signup h3 { font-size: 20px; }
 }
-
