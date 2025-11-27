@@ -154,3 +154,20 @@ section.visible {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* MOBILE RESPONSIVE */
+@media only screen and (max-width: 768px) {
+    .ecosystem {
+        flex-direction: column;
+        gap: 30px;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size:
+    }
